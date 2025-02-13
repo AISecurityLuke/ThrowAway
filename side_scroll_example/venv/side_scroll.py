@@ -1,4 +1,10 @@
-import pygame
+try:
+    import pygame
+except ImportError:
+    import sys
+    print("Error: Pygame is not installed. Please install it using: pip install pygame")
+    sys.exit(1)
+
 import sys
 #########################
 # UNFINISHED FRAMEWORK ##
