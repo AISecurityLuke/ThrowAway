@@ -1,21 +1,8 @@
 import pygame
 import sys
-
-# This file sets up a basic, playable skeleton for a sidescrolling RPG/roguelike game.
-# How It Works:
-# - Initializes a Pygame window with a set width, height, and frame rate.
-# - Defines a Player class as a simple rectangle sprite that can move left or right using arrow keys.
-# - The Level class manages the player and implements a basic horizontal scrolling mechanism:
-#     • When the player moves past 70% of the right side of the screen, the level scrolls left.
-#     • Similarly, when moving past 30% of the left side, the level scrolls right.
-# - The main loop handles event processing, updating game state, drawing the level, and refreshing the display.
-#
-# Is It Playable?
-# - Yes, this code is playable in that you can control the player’s left/right movement and see
-#   the scrolling effect. However, it's very basic and meant to serve as a foundation.
-# - To create a full game, you’d likely need to add mechanics like jumping, collision detection,
-#   enemies, additional level elements, and more refined scrolling of background and non-player objects.
-
+#########################
+# UNFINISHED FRAMEWORK ##
+#######
 # Constants for screen dimensions and game speed
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
