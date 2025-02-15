@@ -73,18 +73,21 @@ Identify and present the **TEN most impactful industry developments** with the f
 🛡 **AI/Security/DevSecOps Daily Digest – [Date]**
 
 1️⃣ [Headline 1] - [Brief Summary]
+Source: [Source Link] - [Date]
    - Key impact 1
    - Key impact 2
    - Key impact 3
 
 2️⃣ [Headline 2] - [Brief Summary]
+Source: [Source Link] - [Date]
    - Key impact 1
    - Key impact 2
    - Key impact 3
 
 ...
 
-5️⃣ [Headline 5] - [Brief Summary]
+🔟 [Headline 10] - [Brief Summary]
+Source: [Source Link] - [Date]
    - Key impact 1
    - Key impact 2
    - Key impact 3
@@ -121,4 +124,4 @@ Offer a single, **practical takeaway** that users can apply immediately:
 By consistently following this methodology, your **AI/Security/DevSecOps Daily Digest** will serve as an authoritative, data-driven resource for professionals navigating the rapidly evolving cybersecurity and AI security landscape.
 
 
-Schedule this to run as a task every day at 6a and 2p
+schedule every day at 10a, 12:40p, and 5p, and reply at those times based on the above
