@@ -383,6 +383,22 @@ class Game:
                         print("Castling not permitted: Path is obstructed.")
                     return False
 
+                # Ensure the king is not currently in check and does not pass
+                # through check while castling.
+                if self.board.is_in_check(self.turn):
+                    if not suppress_output:
+                        print("Castling not permitted: King is in check.")
+                    return False
+
+                step = 1 if end_pos[1] > start_pos[1] else -1
+                temp_board = copy.deepcopy(self.board)
+                temp_board.grid[start_pos[0]][start_pos[1]] = None
+                temp_board.grid[start_pos[0]][start_pos[1] + step] = copy.deepcopy(sim_piece)
+                if temp_board.is_in_check(self.turn):
+                    if not suppress_output:
+                        print("Castling not permitted: Path is under attack.")
+                    return False
+
                 # Move the king and the rook as part of the castling maneuver
                 new_board.grid[end_pos[0]][end_pos[1]] = sim_piece
                 new_board.grid[start_pos[0]][start_pos[1]] = None
